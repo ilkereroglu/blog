@@ -18,7 +18,7 @@ export default function Index() {
   return (
     <Container>
       <Head>
-        <title>Home - Benjamin Carlson</title>
+        <title>Home - Optimum</title>
       </Head>
       <Stack
         as="main"
@@ -35,7 +35,7 @@ export default function Index() {
           alignItems="flex-start"
           maxWidth="700px"
         >
-          <Heading mb={2}>Hi, I'm Benjamin Carlson</Heading>
+          <Heading mb={2}>Optimum</Heading>
           <Text color={colorSecondary[colorMode]}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ante nunc, finibus sit amet purus quis, congue vulputate ipsum. Phasellus lobortis bibendum orci, quis imperdiet lectus imperdiet porttitor.</Text>
         </Flex>
       </Stack>

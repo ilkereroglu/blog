@@ -28,7 +28,7 @@ export default function Blog({ posts }) {
     return (
         <>
             <Head>
-                <title>Blog - Benjamin Carlson</title>
+                <title>Blog - İlker Eroğlu</title>
             </Head>
             <Container>
                 <Stack
@@ -59,6 +59,7 @@ export default function Blog({ posts }) {
                                 <SearchIcon color="gray.300" />
                             </InputRightElement>
                         </InputGroup>
+
                         {!filteredBlogPosts.length && 'No posts found :('}
                         {filteredBlogPosts.map((frontMatter) => <BlogPost key={frontMatter.title} {...frontMatter} />)}
                     </Flex>
