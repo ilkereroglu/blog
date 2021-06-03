@@ -35,7 +35,7 @@ export default function Index() {
           alignItems="flex-start"
           maxWidth="700px"
         >
-          <Heading mb={2}>Optimum</Heading>
+          <Heading mb={2}>Optimum deneme</Heading>
           <Text color={colorSecondary[colorMode]}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ante nunc, finibus sit amet purus quis, congue vulputate ipsum. Phasellus lobortis bibendum orci, quis imperdiet lectus imperdiet porttitor.</Text>
         </Flex>
       </Stack>
